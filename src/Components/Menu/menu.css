@@ -1,0 +1,41 @@
+.arrow div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrow div:hover,
+.arrow div:focus{
+    background-color: var(--primary);
+}
+
+.arrow .icon{
+    font-size: 1.5rem;
+}
+
+.menu{
+    border-radius: 20px;
+    padding: 0 24px 20px 24px;
+    color: black;
+}
+
+.menu img{
+    width: 276px;
+    height: 276px;
+}
+
+.favorites{
+    background-color: var(--primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 0 20px 0 20px;
+    right: 0px;
+    font-size: 1.5rem;
+}
+
+.heart-icon{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,12 @@
+.meal{
+    padding: 20px 24px;
+    border-radius: 50%;
+    color: black;
+}
+
+.bg-meal{
+    background-color: var(--bg-meal);
+    border-radius: 50%;
+    width: 153px;
+    height: 153px;
+}

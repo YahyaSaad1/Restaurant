@@ -1,0 +1,79 @@
+.navbar{
+    padding: 20px 10%;
+}
+
+.logo{
+    width: 80px;
+}
+
+.arrowdown{
+    color: var(--primary);
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.link:hover, .link:focus{
+    color: var(--primary);
+    transition: 0.3s;
+}
+
+.btn-Contact{
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-Contact:hover{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.icon{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: absolute;
+    background-color: #ececec;
+    width: 80%;
+    top: 30%;
+    padding: 24px 36px;
+    animation: myMove 0.5s 1;
+}
+
+@keyframes myMove {
+    0%{scale: 0;}
+    100%{scale: 1;}
+}
+
+.nav-menu-link{
+    padding: 12px 0;
+    border-bottom: 1px solid var(--primary-hover);
+}
+
+.nav-menu-link:last-child{
+    border-bottom: none;
+}
+
+.close{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.close-icon{
+    display: flex;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.close-icon:hover{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+}

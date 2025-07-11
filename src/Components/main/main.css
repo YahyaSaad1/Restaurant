@@ -1,0 +1,86 @@
+.main{
+    margin-top: 100px;
+}
+
+.left-div{
+    line-height: 140%;
+    letter-spacing: 1px;
+}
+
+.title-span{
+    font-size: 60px;
+    line-height: 145.5%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.left-div p{
+    word-spacing: 2px;
+}
+
+.order-now,
+.watch-video{
+    background-color: var(--primary);
+    color: white;
+    font-weight: bolder;
+    padding: 8px 16px;
+    box-shadow: 5px 5px 15px var(--shadow);
+    transition: 0.3s;
+}
+
+.order-now:hover,
+.order-now:focus{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.watch-video:hover{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.watch-div{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.watch-icon{
+    font-size: 1.4rem;
+}
+
+.img-Intersect{
+    width: 420px;
+    height: 420px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.img-Intersect img{
+    width: 500px;
+    height: 500px;
+    margin-left: -40px;
+}
+
+.hint{
+    background-color: white;
+}
+
+.hint img{
+    width: 60px;
+    height: 60px;
+}
+
+.start-icon:focus{
+    color: yellow;
+}
+
+@media (max-width: 700px) {
+    .title-span{
+        font-size: 38px;
+        line-height: 130%;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+}

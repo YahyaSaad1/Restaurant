@@ -1,0 +1,21 @@
+.card-culinary{
+    border-radius: 25px;
+    color: var(--primary);
+    padding: 2.2rem 1.6rem 1.3rem 1.6rem;
+    height: 265px;
+}
+
+.card-culinary img{
+    width: 2.5rem;
+}
+
+.card-culinary p{
+    color: var(--primary-hover);
+    letter-spacing: 1.3px;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.title-service{
+    font-size: 2px;
+}
